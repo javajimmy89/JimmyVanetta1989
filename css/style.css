@@ -1,0 +1,108 @@
+/* Begin General Rules */
+
+* {
+  font-family: "Aldrich", sans-serif, serif;
+}
+
+body {
+    background-image: url('/image/bckgnd2.jpeg');
+    background-color: darkgreen;
+    background-origin: content-box;
+    background-size: cover;
+}
+
+p {
+    display:inline-block;
+}
+
+/* End General Rules */
+
+/* Begin Header Rules */
+
+header {
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+}
+
+#intro {
+    font-size: 55px;
+    color: white;
+    margin: auto;
+    color: white;
+}
+
+#displayPic {
+    height: 350px;
+    width: auto;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 100%;
+    border: 4px solid white;
+}
+
+#mediaLinks {
+    width: 1000px;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+/* End Header Rules */
+
+/* Begin About Me Rules */
+
+#jumboTron {
+    display: block;
+    border-radius: 25px;
+    height: 500px;
+    width: 1000px;
+    background-color: rgba(128, 128, 128, 0.8);
+    margin: auto;
+    color: white;
+    justify-content: center;
+}
+
+#aboutMeHeader {
+    display: block;
+    border-bottom: 3px solid grey;
+    border-left: 3px solid grey;
+    margin: auto;
+    width: 175px;
+    text-align: center;
+    position: relative;
+    right: 10px;
+}
+
+#aboutMeBody {
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    word-wrap: normal;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    right: 10px;
+}
+
+#aboutPic {
+    display: inline-block;
+    position: relative;
+    border-radius: 25px;
+    bottom: 130px;
+    right: 32px;
+}
+
+/* Begin Slideshow Rules */
+
+.mySlides {
+    height: 30px;
+}
+
+#slideShow {
+    color: white;
+}
+
+/* End Slideshow Rules */
