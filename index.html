@@ -31,13 +31,15 @@
     
 </head>
 
+<!-- Page Top -->    
 <body id="pageTop">
     
+  <!-- Begin Header -->    
   <header>
       
     <!-- Begin Header Content -->
     <div class="container">  
-    
+      
       <div class="w3-content w3-section" id="intro">
       
         <img src="image/meOR.jpg" class="img-responsive w3-animate-zoom" alt="A joyous and smiling man with Mt. Hood in the background." id="displayPic"/>   
@@ -46,8 +48,8 @@
         
       </div> 
         
-  <!-- Begin Slideshow Container -->    
-  <div class="w3-content w3-section" id="slideShow" style="max-width:500px">
+  <!-- Begin Slideshow -->    
+<div class="w3-content w3-section" id="slideShow" style="max-width:500px">
   
   <!-- Begin Slideshow Items -->
   <h3 class="mySlides w3-animate-left" style="">HTML</h3>
@@ -60,17 +62,20 @@
   <!-- End Slideshow Items -->   
     
 </div>  
-        
-     <!-- End Slideshow Container -->
-        
+<!-- End Slideshow Container -->
+    
+    <!-- Begin Social Media Buttons -->  
     <div class="w3-content w3-section" id="mediaLinks">
-        
+      
+      <!-- LinkedIn Button -->   
       <a href="https://www.linkedin.com/in/james-vanetta/" class="btn btn-default btn-sm w3-animate-bottom" role="button" data-toggle="tooltip" data-placement="bottom" title="Visit Me @ LinkedIn"><i class="fa fa-linkedin-square" style="font-size:40px;color:rgb(0, 119, 181)"></i></a>
       
+      <!-- Facebook Button -->    
       <a href="https://www.facebook.com/jvanetta" class="btn btn-default btn-sm w3-animate-bottom" role="button" data-toggle="tooltip" data-placement="bottom" title="Visit Me @ Facebook"><i class="fa fa-facebook-square" style="font-size:40px;color:rgb(59, 89, 152);"></i></a>  
       
     </div>       
-          
+    <!-- End Social Media Buttons -->
+        
     </div>    
         
    </header> 
@@ -92,9 +97,16 @@
     </div>
     
     </div>
-    
     <!-- End About Me -->
-
+    
+    <!-- Begin Contact Me -->
+    <div class="container" id="contactMe">
+    
+      
+    
+    </div>
+    <!-- End Contact Me -->
+    
 <!--/////////////////
          ¡JS!   
 /////////////////-->
@@ -103,34 +115,8 @@
     
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
-    <script type="text/javascript" src="js/main.js"></script>
-  <!--  
-<script>
-  var myIndex = 0;
-  carousel();
+<script type="text/javascript" src="js/main.js"></script>
 
-  function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 7000);    
-}
-</script>    
--->
-    <!--
-<script>
-    
- $(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();   
-});
-    
-</script>    
-    -->
 </body>
     
 <footer>

@@ -27,6 +27,7 @@ header {
 
 #intro {
     font-size: 55px;
+    text-shadow: 2px 2px 4px #000000;
     color: white;
     margin: auto;
     color: white;
@@ -67,6 +68,7 @@ header {
 
 #aboutMeHeader {
     display: block;
+    text-shadow: 2px 2px 4px #000000;
     border-bottom: 3px solid grey;
     border-left: 3px solid grey;
     margin: auto;
@@ -85,6 +87,7 @@ header {
     display: inline-block;
     position: relative;
     right: 10px;
+    text-shadow: 2px 2px 8px #000000;
 }
 
 #aboutPic {
@@ -94,6 +97,7 @@ header {
     bottom: 130px;
     right: 32px;
 }
+/* End About Me Rules */
 
 /* Begin Slideshow Rules */
 
@@ -103,6 +107,7 @@ header {
 
 #slideShow {
     color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 /* End Slideshow Rules */
