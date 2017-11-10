@@ -60,17 +60,19 @@ header {
     border-radius: 25px;
     height: 500px;
     width: 1000px;
-    background-color: rgba(128, 128, 128, 0.8);
     margin: auto;
     color: white;
+    z-index: 1;
     justify-content: center;
+    box-shadow: 3px 3px 12px #000000;
+    background-color: rgba(128, 128, 128, 0.8);
 }
 
 #aboutMeHeader {
     display: block;
     text-shadow: 2px 2px 4px #000000;
-    border-bottom: 3px solid grey;
-    border-left: 3px solid grey;
+    border-bottom: 3px solid #666666;
+    border-left: 3px solid #666666;
     margin: auto;
     width: 175px;
     text-align: center;
@@ -94,8 +96,10 @@ header {
     display: inline-block;
     position: relative;
     border-radius: 25px;
+    box-shadow: 5px 5px 8px #666666;
     bottom: 130px;
     right: 32px;
+    z-index: 2;
 }
 /* End About Me Rules */
 
